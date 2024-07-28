@@ -1,0 +1,71 @@
+@media (max-width:583px) {
+    .header-left-container {
+        width: 90%;
+    }
+}
+
+@media (min-width:584px) and (max-width:800px) {
+    .header-left-container {
+        width: 75%;
+    }
+}
+
+
+/* navbar */
+
+
+/* dropdown */
+
+.dropdown-menu li:hover {
+    background-color: rgb(190, 190, 190);
+}
+
+.already-have-account-button {
+    padding: 15px 30px;
+    border-radius: 10px;
+}
+
+.already-have-account-input {
+    width: 46%;
+    padding: 15px;
+    outline: none;
+}
+
+footer {
+    background-color: black;
+    color: white;
+}
+
+footer li {
+    list-style: none;
+    line-height: 35px;
+}
+
+.footer-copyright {
+    font-size: 0.85rem;
+}
+
+.footer-secondpanel-right {
+    width: 20%;
+}
+
+@media (min-width:768px) {
+    .footer-second-panel {
+        display: flex;
+        justify-content: space-between;
+    }
+    .footer-copyright {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+@media (max-width:767px) {
+    .footer-secondpanel-right {
+        margin-top: 1rem;
+    }
+}
+
+.footer-third-panel img {
+    width: 10rem;
+}
